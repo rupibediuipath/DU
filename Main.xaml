@@ -165,6 +165,6 @@
         </InArgument>
       </p:ExtractDocumentDataWithDocumentData.RuntimeTenantUrl>
     </p:ExtractDocumentDataWithDocumentData>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,164" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[New With { .POnumber = documentData_1.Data.POnumber.Value, .PODate = documentData_1.Data.PODate.Value, .VendorName = documentData_1.Data.VendorName.Value, .TotalCost = documentData_1.Data.TotalCost.Value }]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,164" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[New With { .POnumber = documentData_1.Data.POnumber.Value, .PODate = documentData_1.Data.PODate.Value, .VendorName = documentData_1.Data.VendorName.Value, .TotalCost = documentData_1.Data.TotalCost.Value }]" />
   </Sequence>
 </Activity>
