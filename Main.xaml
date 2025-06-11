@@ -97,7 +97,7 @@
       <AssemblyReference>CustomGptDocumentTyp.DgpMp33cVoQ1PpcknvO1ot3</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="796,776.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1568.2,735" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="uisad:DocumentData" Name="documentData">
         <sap:WorkflowViewStateService.ViewState>
@@ -121,7 +121,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <p:ClassifyDocument ApiKey="{x:Null}" ClassifierResult="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" DocumentTypes="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" ProjectTag="{x:Null}" ProjectVersionNumber="{x:Null}" Prompt="{x:Null}" ClassificationResults="[documentData]" ClassifierId="generative_classifier" DisplayName="Classify Document" Endpoint="https://staging.uipath.com/8719b2cd-3d32-4b73-8b59-33ebb97d4023/1d25a0d9-5fb9-4a4c-88d7-ceefa994a59b/du_/api/framework/projects/00000000-0000-0000-0000-000000000001/classifiers/generative_classifier/classification/start?api-version=1.1" FileInput="[LocalResource.FromPath(&quot;C:\\Users\\rupinder.singh\\Downloads\\Other Documents\\Other Documents\\Purchase Order(6).pdf&quot;)]" sap:VirtualizedContainerService.HintSize="416,274" sap2010:WorkflowViewState.IdRef="ClassifyDocument_1" MinimumConfidence="50" ProjectId="00000000-0000-0000-0000-000000000001" TimeoutInSeconds="3600">
+    <p:ClassifyDocument ApiKey="{x:Null}" ClassifierResult="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" DocumentTypes="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" ProjectTag="{x:Null}" ProjectVersionNumber="{x:Null}" Prompt="{x:Null}" ClassificationResults="[documentData]" ClassifierId="generative_classifier" DisplayName="Classify Document" Endpoint="https://staging.uipath.com/8719b2cd-3d32-4b73-8b59-33ebb97d4023/213a1ba3-fed6-4c53-adde-e43dc6417707/du_/api/framework/projects/00000000-0000-0000-0000-000000000001/classifiers/generative_classifier/classification/start?api-version=1.1" FileInput="[LocalResource.FromPath(&quot;C:\\Users\\rupinder.singh\\Downloads\\Other Documents\\Other Documents\\Purchase Order(6).pdf&quot;)]" sap:VirtualizedContainerService.HintSize="416,274" sap2010:WorkflowViewState.IdRef="ClassifyDocument_1" MinimumConfidence="50" ProjectId="00000000-0000-0000-0000-000000000001" TimeoutInSeconds="3600">
       <p:ClassifyDocument.GptPromptWithVariables>
         <InArgument x:TypeArguments="x:String" x:Key="PurchaseOrder">Is this document a purchase Order?</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="Passport">Is this document a passport?</InArgument>
